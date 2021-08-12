@@ -11,4 +11,12 @@
 4. ganti warna sprite nya (untuk membedakan dengan gameobject lain)
 5. scale gameobject agar berbentuk persegi panjang
 6. create empty game object di dalam gameobject "Gun" dan geser posisinya di depan object guns (game object ini nantinya akan digunakan untuk posisi dimana peluru akan spawn)
-7. 
+
+### 2. prepare bullet game object
+1. create empty gameobject dengan nama "Bullet"
+2. tambahkan sprite seperti pada langkah sebelumnya
+3. ganti warna sprite nya juga
+4. lalu scale sesuai keinginan
+5. kemudian add component rigidbody2d dan ubah gravity scale menjadi 0
+6. add component collider2d dan sesuaikan dengan object nya
+7. di Assets create folder bernama prefabs lalu drag and drop gameobject "Guns" ke dalam foldernya 
